@@ -1,0 +1,122 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 40vh;
+  position: relative;
+  background-color: #fef1e2;
+}
+
+.company-details {
+  flex: 1; 
+  max-width: 33%; 
+  margin-top: 60px;
+  padding-left: 40px;
+}
+.main-label{
+  font-family: 'Belleza';
+  font-size: 40px;
+}
+.sub-label{
+  font-family: 'DM Sans';
+  font-size: 16px;
+  margin-bottom: 20px
+}
+.contact-info{
+  font-family: 'DM Sans';
+  font-size: 16px;
+}
+.gmail{
+  padding-bottom: 60px;
+}
+
+/*-----------------------------------------*/
+
+.home-link {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  max-width: 33%; 
+  text-align: center;
+  margin-top: 80px;
+}
+.home-link .a{
+  color: white;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  text-decoration: none;
+}
+.right-side {
+  flex: 1; 
+  max-width: 33%; 
+  margin-top: 80px;
+}
+  .subscribe-wrapper{
+  font-family: 'Belleza';
+  font-size: 40px;
+  padding-bottom: 10px;
+  }
+.subscribe-email input{
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 40px;
+  width: 250px;
+  border-style: none;
+  font-style: italic;
+}
+.subscribe-button button{
+  margin-top: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+  border-style: none;
+  background-color: #34A0A4;
+  color: #fef1e2;
+}
+.subscribe-button button:hover{
+    background-color: gray;
+}
+
+/*--------------------------------------*/
+
+.social-media-icons{
+  display: flex;
+  flex-direction: row;
+  padding-right: 150px;
+  margin-left: 15px;
+  padding-top: 90px;
+}
+.follow-us{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    margin-right: 15px; 
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px; 
+}
+.icon:last-child {
+  margin-right: 0;
+}
+
+/*---------------------------------------------------*/
+
+@media screen and (max-width: 1050px) {
+  .contact-page {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .right-side {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .right-side {
+    flex-wrap: wrap;
+  }
+}
+  

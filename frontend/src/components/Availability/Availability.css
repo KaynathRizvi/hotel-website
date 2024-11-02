@@ -1,0 +1,47 @@
+/* availability.css */
+.availability-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+  
+  .room {
+    margin: 20px auto;
+    width: 600px;
+    height: 650px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room img {
+    width: 540px;
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  .room h2 {
+    margin-top: 10px;
+  }
+  
+  .room p {
+    margin: 10px 0;
+  }
+  
+  .room button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .room button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,87 @@
+.dining-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.dining-content {
+    width: 1300px;
+}
+.dining-label{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Belleza';
+    font-weight: bold;
+}
+.dining-desc{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    text-align: center;
+}
+.dining-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dining-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    padding-right: 30px;
+}
+.dining-text {
+    margin-top: 150px;
+}
+.img-dining {
+    height: 391px;
+    width: 705px;
+    border-radius: 20px;
+    display: flex;
+}
+.hotel-dining{
+    font-size: 36px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+}
+.hotel-dining-desc{
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: 'DM Sans';
+}
+.dining-know-more button{
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 64px;
+    width: 137px;
+    height: 44px;
+    color: #fef1e2;
+    border: none;
+    background-color: #34A0A4;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    position: relative;
+}
+
+  .dining-dots-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; 
+  }
+  
+  .dining-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; 
+    margin: 0 5px; 
+    cursor: pointer;
+  }
+  
+  .dining-dot.active {
+    background-color: #34A0A4; 
+  }
+

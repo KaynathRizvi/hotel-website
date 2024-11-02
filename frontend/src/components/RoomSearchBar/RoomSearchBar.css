@@ -1,0 +1,28 @@
+.room-search-bar{
+    margin-top: 10px;
+    position: relative;
+    
+}
+.room-search-bar button{
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    background-color: #34A0A4;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    font-weight: 200px;
+}
+
+
+.room-search-bar .search-icon {
+    position: absolute;
+    left: 10px; 
+    top: 55%;
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 40px; 
+    background-image: url('C:\Users\Kaynath Zehra\hotel-webapp\frontend\public\search.svg');
+    background-repeat: no-repeat;
+  }

@@ -1,0 +1,167 @@
+.sign-up{
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 30px;
+  color: #171725;
+}
+.signup-form {
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.sign-up1{
+  margin: 0;
+  width: 90px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  font-family: inherit;
+  padding-bottom: 50px;
+}
+
+.signup-group, .signup-get-started, .signup-following-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.signup-email-input, .signup-password-input, .confirm-password-input{
+  border-radius: 5px;
+  border: 1.6px solid gray;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 40px;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.signup-email-frame, .signup-password-frame , .confirm-password-frame{
+  position: relative;
+}
+
+.signup-email-frame input, .signup-password-frame input, .confirm-password input{
+  padding-left: 35px;
+}
+
+.signup-email-icon{
+  position: absolute;
+  left: 10px; 
+  top: 25%;
+  transform: translateY(-50%);
+  width: 30px; 
+  height: 25px; 
+  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\email.svg');
+  background-repeat: no-repeat;
+}
+
+.signup-password-icon{
+  position: absolute;
+  left: 10px; 
+  top: 10%;
+  transform: translateY(-50%);
+  width: 30px; 
+  height: 25px; 
+  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\password.svg');
+  background-repeat: no-repeat;
+}
+
+.confirm-password-icon{
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px; 
+  height: 25px; 
+  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\password.svg');
+  background-repeat: no-repeat;
+}
+
+.signup-button-frame {
+  cursor: pointer;
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff; 
+  text-decoration: none;
+  display: inline-block; 
+  margin-top: 25px;
+  height: 40px;
+  width: 300px;
+}
+.s-following1, .s-following2 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: transparent;
+  height: 20px;
+  letter-spacing: 0.1px;
+  padding: 0;
+}
+.s-following1{
+  color: black;
+  align-items: right;
+}
+.s-following2{
+  color: blue;
+  cursor: pointer;
+}
+.signup-following-group{
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.signup-rectangle-shape {
+  width: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  color: gray;
+  white-space: nowrap;
+}
+.signup-frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  color: blue;
+}
+
+.sign-up-child {
+  height: 650px;
+  width: 1000px;
+  object-fit: cover;
+  margin-left: 200px;
+}
+
+
+.signup-name-input {
+  border-radius: 5px;
+  border: 1.6px solid gray;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 40px;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.signup-name-frame {
+  position: relative;
+}
+
+.signup-name-frame input {
+  padding-left: 35px;
+}

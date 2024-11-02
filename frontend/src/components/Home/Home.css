@@ -1,0 +1,267 @@
+.background-image-container {
+  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\Hotel.jpg'); 
+  background-color: #FFF5EB;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+}
+ 
+.hotel-name {
+  padding-right: 50px;
+  font-size: 45px;
+  font-family: 'Belleza';
+  color: white;
+}
+
+.primary-navigation-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+    
+.primary-navigation-links a {
+  color: white;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  text-decoration: none;
+  padding: 0 12px 0 12px;
+}
+
+.primary-navigation-links a:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+} 
+
+.desc{
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 150px;
+  color: white;
+  font-family: 'DM Sans';
+}
+
+.desc1{
+  display: block;
+  width: 722.48px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.desc2{
+  display: block;
+  width: 722.48px;
+  font-size: 25px;
+}
+
+.check-container {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef1e2;
+  color: black;
+  font-size: 18px;
+  font-family: 'DM Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.check-in-container, .check-out-container, .guest-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.check-in-container div span, .check-out-container div span, .guest-container div span {
+  display: block;
+}
+
+.material-symbols-outlined {
+  padding: 10px;
+  font-size: 30px;
+  color: #34A0A4;
+}
+  
+.check-in-container .react-datepicker__input-container input {
+  width: 125px;
+  border-width: 1px 0 0 0;
+  background-color: transparent;
+}    
+
+.check-out-container .react-datepicker__input-container input {
+  width: 145px;
+  border-width: 1px 0 0 0;
+  background-color: transparent;
+} 
+
+.guest-container input {
+  width: 240px;
+  border-width: 1px 0 0 0;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+  align-items: center;
+  color: #34A0A4;
+  border-radius: 5px;
+}
+
+.dropdown-content.open {
+  max-height: 200px; 
+  transition: max-height 0.5s ease;
+}
+
+.dropdown-content div div {
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown-content div {
+  display: inline-block;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.dropdown-content div div span{
+  width: 35px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dropdown-content button {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #34A0A4;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #34A0A4;
+}
+
+.guest-container input:focus {
+  outline-width: 0;
+}
+
+.room-search-bar{
+  margin-top: 10px;
+  position: relative;  
+}
+.room-search-bar button{
+  border-radius: 50px;
+  width: 240px;
+  height: 50px;
+  color: #fef1e2;
+  border: none;
+  background-color: #34A0A4;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  font-weight: 200px;
+  text-align: center;
+}
+
+.search-icon .material-symbols-outlined{
+  color: #fef1e2;
+  position: absolute;
+  left: 10px; 
+  top: 0%;
+  width: 40px; 
+  height: 40px; 
+}
+
+  /*secondary navigation bar */
+
+.secondary-navigation-links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #34A0A4; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* It is use to ensure the navigation bar appears above other content */
+  display: flex;
+  padding: 3px 15px; 
+  transition: top 0.3s; 
+  top: -100px;
+}
+.secondary-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondary-links a{
+  color: white;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  text-decoration: none;
+  padding: 0 12px 0 12px;
+}
+.secondary-links a:hover{
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+.second-hotel-name {
+  padding-right: 500px;
+  font-size: 45px;
+  font-family: 'Belleza';
+  color: white;
+}
+.scrolled .secondary-navigation-links.visible {
+  top: 0;
+}
+
+/*login Form Pop-Up*/
+  
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.fa-close-icon{
+  display: flex;
+  justify-content: flex-end;
+}
+.close-icon {
+  cursor: pointer;
+}
+
+/*-----------------------------------*/
+
+@media screen and (max-width: 768px) {
+  .primary-navigation-links {
+    font-size: 14px; 
+}
+
+@media screen and (max-width: 500px) {
+  .check-in-container {
+    width: 200px;
+  }
+}
+}

@@ -1,0 +1,86 @@
+.about-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.about-content {
+    width: 1300px;
+}
+.about-label{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Belleza';
+    font-weight: bold;
+}
+.about-desc{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    text-align: center;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pool-text {
+    margin-top: 150px;
+}
+.about-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    padding-right: 30px;
+}
+.img-pool {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: flex;
+}
+.hotel-pool{
+    font-size: 36px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+}
+.pool-desc{
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: 'DM Sans';
+}
+.about-know-more button{
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 64px;
+    width: 137px;
+    height: 44px;
+    color: #fef1e2;
+    border: none;
+    background-color: #34A0A4;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    position: relative;
+}
+
+  .about-dots-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; 
+  }
+  
+  .about-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; 
+    margin: 0 5px; 
+    cursor: pointer;
+  }
+  .about-dot.active {
+    background-color: #34A0A4; 
+  }

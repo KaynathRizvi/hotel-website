@@ -1,0 +1,19 @@
+.generate{
+    margin-bottom: 10px;
+}
+.cancellation-message{
+    margin-top: 10px;
+    font: 'Belleza';
+}
+.close-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  

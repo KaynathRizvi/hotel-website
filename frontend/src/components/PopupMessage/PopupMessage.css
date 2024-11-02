@@ -1,0 +1,33 @@
+.popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.popup-message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-message-content p {
+    flex: 1;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.popup-message-content button {
+    background-color: white;
+    border: none;
+    color: black;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
