@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
-import rooms from '../../assests/rooms.jpg'
-import room01 from '../../assests/room01.jpg'
-import room02 from '../../assests/room02.jpg'
+import rooms from '../../assets/rooms.jpg'
+import room01 from '../../assets/room01.jpg'
+import room02 from '../../assets/room02.jpg'
 
 const StandardRoomForm = () => {
   const [showForm, setShowForm] = useState(false);

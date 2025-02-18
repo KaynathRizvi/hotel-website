@@ -6,6 +6,9 @@ import { Button } from "react-bootstrap";
 import SignUpForm from '../SignUp/SignUpForm';
 import PopupMessage from '../PopupMessage/PopupMessage';
 import './Login.css';
+import loginimage from '../../assets/login.jpg';
+import LoginEmailIcon from '../../assets/email.svg';
+import LoginPassIcon from '../../assets/password.svg';
 
 function LoginForm() {
     const [email, setEmail] = useState('');
@@ -74,11 +77,11 @@ function LoginForm() {
                                     <div className="login-get-started">
                                         <div className="login-email-frame">
                                             <input className="login-email-input" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your email" />
-                                            <div className='login-email-icon'></div>
+                                            <div className='login-email-icon' style={{ backgroundImage: `url(${LoginEmailIcon})` }}></div>
                                         </div>
                                         <div className="login-password-frame">
                                             <input className="login-password-input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-                                            <div className='login-password-icon'></div>
+                                            <div className='login-password-icon' style={{ backgroundImage: `url(${LoginPassIcon})` }}></div>
                                         </div>
                                     </div>
                                     <Button type="submit" className="login-button-frame" variant="primary">Log In</Button>
@@ -92,7 +95,7 @@ function LoginForm() {
                     </div>
                 </div>
             )}
-            <img className="log-in-child" alt="" src="/login.jpg" />
+            <img className="log-in-child" alt="" src={loginimage} />
             {showSignUpForm && (
                 <div className="popup-overlay">
                     <div className="popup-form">

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Service.css';
-import restauranticon from '../../assests/restaurant.svg'
-import poolicon from '../../assests/pool.svg'
-import wifiicon from '../../assests/wifi.svg'
-import gymicon from '../../assests/gym.svg'
-import taxiicon from '../../assests/taxi.svg'
-import parkingicon from '../../assests/parking.svg'
+import restauranticon from '../../assets/restaurant.svg'
+import poolicon from '../../assets/pool.svg'
+import wifiicon from '../../assets/wifi.svg'
+import gymicon from '../../assets/gym.svg'
+import taxiicon from '../../assets/taxi.svg'
+import parkingicon from '../../assets/parking.svg'
 
 const Service = () => {
   return (

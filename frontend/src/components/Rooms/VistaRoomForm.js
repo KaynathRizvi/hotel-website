@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
-import vista1 from '../../assests/vista1.jpg'
-import vista2 from '../../assests/vista2.jpg'
-import vista3 from '../../assests/vista3.jpg'
+import vista1 from '../../assets/vista1.jpg'
+import vista2 from '../../assets/vista2.jpg'
+import vista3 from '../../assets/vista3.jpg'
 
 const VistaRoomForm = () => {
   const [showForm, setShowForm] = useState(false);

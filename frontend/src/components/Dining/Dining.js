@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Dining.css';
-import breakfast from '../../assests/breakfast.jpg'
-import inroom from '../../assests/in-room.jpg'
-import restaurant from '../../assests/restaurant.jpg'
+import breakfast from '../../assets/breakfast.jpg'
+import inroom from '../../assets/in-room.jpg'
+import restaurant from '../../assets/restaurant.jpg'
 
 const Dining = () => {
   const navigate = useNavigate();

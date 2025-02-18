@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
-import deluxe1 from '../../assests/deluxe1.jpg';
-import deluxe2 from '../../assests/deluxe2.jpg';
-import deluxe3 from '../../assests/deluxe3.jpg';
+import deluxe1 from '../../assets/deluxe1.jpg';
+import deluxe2 from '../../assets/deluxe2.jpg';
+import deluxe3 from '../../assets/deluxe3.jpg';
 
 
 const DeluxeRoomForm = () => {

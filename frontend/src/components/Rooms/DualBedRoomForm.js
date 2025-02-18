@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
-import dual1 from '../../assests/dual1.jpg';
-import dual2 from '../../assests/dual2.jpg';
-import dual3 from '../../assests/dual3.jpg';
+import dual1 from '../../assets/dual1.jpg';
+import dual2 from '../../assets/dual2.jpg';
+import dual3 from '../../assets/dual3.jpg';
 
 
 const DualBedRoomForm = () => {

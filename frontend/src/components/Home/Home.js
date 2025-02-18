@@ -14,6 +14,7 @@ import Dining from '../Dining/Dining';
 import Service from '../Service/Service';
 import Contact from '../Contact/Contact';
 import LoginForm from '../Login/LoginForm';
+import hotelImage from "../../assets/hotel.jpg";
 
 
 const Home = () => {
@@ -109,7 +110,9 @@ const Home = () => {
 
   return (
     <div>
-      <div className={`background-image-container ${isScrolled ? 'scrolled' : ''}`}>
+      <div className={`background-image-container ${isScrolled ? 'scrolled' : ''}`}
+      style={{ backgroundImage: `url(${hotelImage})` }}
+      >
         {/* Primary navigation bar */}
         <div className='primary-navigation-links'>
           <span className='hotel-name'>The Grand Hotel</span>

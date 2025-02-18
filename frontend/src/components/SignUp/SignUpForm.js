@@ -7,6 +7,9 @@ import { Button } from "react-bootstrap";
 import LoginForm from '../Login/LoginForm';
 import PopupMessage from '../PopupMessage/PopupMessage';
 import './SignUp.css';
+import signupimage from '../../assets/signup.jpg';
+import SignupEmailIcon from '../../assets/email.svg';
+import SignupPassIcon from '../../assets/password.svg';
 
 function SignUpForm() {
     const [name, setName] = useState('');
@@ -89,11 +92,11 @@ function SignUpForm() {
                                         </div>
                                         <div className="signup-email-frame">
                                             <input className="signup-email-input" type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your email" />
-                                            <div className='signup-email-icon'></div>
+                                            <div className='signup-email-icon' style={{ backgroundImage: `url(${SignupEmailIcon})` }}></div>
                                         </div>
                                         <div className="signup-password-frame">
                                             <input className="signup-password-input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-                                            <div className='signup-password-icon'></div>
+                                            <div className='signup-password-icon' style={{ backgroundImage: `url(${SignupPassIcon})` }}></div>
                                             <div className="confirm-password-frame">
                                                 <input className="confirm-password-input" type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} placeholder="Confirm Password" />
                                                 <div className='confirm-password-icon'></div>
@@ -111,7 +114,7 @@ function SignUpForm() {
                     </div>
                 </div>
             )}
-            <img className="sign-up-child" alt="" src="/signup.jpg" />
+            <img className="sign-up-child" alt="" src={signupimage} />
             {showLoginForm && (
                 <div className="popup-overlay">
                     <div className="popup-form">

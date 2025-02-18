@@ -7,10 +7,10 @@ import StandardRoomForm from './StandardRoomForm';
 import DualBedRoomForm from './DualBedRoomForm';
 import VistaRoomForm from './VistaRoomForm';
 import DeluxeRoomForm from './DeluxeRoomForm';
-import rooms from '../../assests/rooms.jpg'
-import twinroom from '../../assests/twinroom.jpg'
-import viewroom from '../../assests/viewroom.jpg'
-import deluxeroom from '../../assests/deluxeroom.jpg'
+import rooms from '../../assets/rooms.jpg'
+import twinroom from '../../assets/twinroom.jpg'
+import viewroom from '../../assets/viewroom.jpg'
+import deluxeroom from '../../assets/deluxeroom.jpg'
 
 const Rooms = () => {
   const navigate = useNavigate();
