@@ -99,7 +99,7 @@ function SignUpForm() {
                                             <div className='signup-password-icon' style={{ backgroundImage: `url(${SignupPassIcon})` }}></div>
                                             <div className="confirm-password-frame">
                                                 <input className="confirm-password-input" type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} placeholder="Confirm Password" />
-                                                <div className='confirm-password-icon'></div>
+                                                <div className='confirm-password-icon' style={{ backgroundImage: `url(${SignupPassIcon})` }}></div>
                                             </div>
                                         </div>
                                     </div>
