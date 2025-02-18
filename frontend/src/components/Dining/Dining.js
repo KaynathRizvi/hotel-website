@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Dining.css';
+import breakfast from '../../assests/breakfast.jpg'
+import inroom from '../../assests/in-room.jpg'
+import restaurant from '../../assests/restaurant.jpg'
 
 const Dining = () => {
   const navigate = useNavigate();
   const [currentImage, setCurrentImage] = useState(0);
 
-  const images = [
-    '/breakfast.jpg',
-    '/in-room.jpg',
-    '/restaurant.jpg', 
-  ];
+  const images = [breakfast, inroom, restaurant];
 
   const imageDescriptions = [
     'Culinary Delights',

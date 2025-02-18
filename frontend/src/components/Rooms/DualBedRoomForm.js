@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
+import dual1 from '../../assests/dual1.jpg';
+import dual2 from '../../assests/dual2.jpg';
+import dual3 from '../../assests/dual3.jpg';
+
 
 const DualBedRoomForm = () => {
   const [showForm, setShowForm] = useState(false);
@@ -19,9 +23,9 @@ const DualBedRoomForm = () => {
     <div className='form-page'>
       <h2>Dual-Bed Room</h2>
       <div className='form-img'>
-        <img src='/dual1.jpg' alt='' className='img-style' />
-        <img src='/dual2.jpg' alt='' className='img-style' />
-        <img src='/dual3.jpg' alt='' className='img-style' />
+        <img src={dual1} alt='' className='img-style' />
+        <img src={dual2} alt='' className='img-style' />
+        <img src={dual3} alt='' className='img-style' />
       </div>
       <div className='form-desc'>
         <p>

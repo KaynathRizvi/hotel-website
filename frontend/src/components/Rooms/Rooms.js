@@ -7,6 +7,10 @@ import StandardRoomForm from './StandardRoomForm';
 import DualBedRoomForm from './DualBedRoomForm';
 import VistaRoomForm from './VistaRoomForm';
 import DeluxeRoomForm from './DeluxeRoomForm';
+import rooms from '../../assests/rooms.jpg'
+import twinroom from '../../assests/twinroom.jpg'
+import viewroom from '../../assests/viewroom.jpg'
+import deluxeroom from '../../assests/deluxeroom.jpg'
 
 const Rooms = () => {
   const navigate = useNavigate();
@@ -14,12 +18,7 @@ const Rooms = () => {
   const [showForms, setShowForms] = useState([false, false, false, false]); // State to manage pop-up visibility for each room
   const [showKnowMore, setShowKnowMore] = useState([true, true, true, true]); // State to manage visibility of "Know More" button for each room
 
-  const images = [
-    '/rooms.jpg',
-    '/twinroom.jpg',
-    '/viewroom.jpg', 
-    '/deluxeroom.jpg', 
-  ];
+  const images = [rooms, twinroom, viewroom, deluxeroom];
 
   const imageDescriptions = [
     'Standard Room',

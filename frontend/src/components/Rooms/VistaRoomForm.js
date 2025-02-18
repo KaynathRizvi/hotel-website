@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import Booking from '../Booking/Booking';
 import './Rooms.css';
+import vista1 from '../../assests/vista1.jpg'
+import vista2 from '../../assests/vista2.jpg'
+import vista3 from '../../assests/vista3.jpg'
 
 const VistaRoomForm = () => {
   const [showForm, setShowForm] = useState(false);
@@ -24,9 +27,9 @@ const VistaRoomForm = () => {
     <div className='form-page'>
       <h2>Vista Room</h2>
       <div className='form-img'>
-        <img src='/vista1.jpg' alt='' className='img-style' onClick={() => handleImageClick('/vista1.jpg')} />
-        <img src='/vista2.jpg' alt='' className='img-style' onClick={() => handleImageClick('/vista2.jpg')} />
-        <img src='/vista3.jpg' alt='' className='img-style' onClick={() => handleImageClick('/vista3.jpg')} />
+        <img src={vista1} alt='' className='img-style' onClick={() => handleImageClick('/vista1.jpg')} />
+        <img src={vista2} alt='' className='img-style' onClick={() => handleImageClick('/vista2.jpg')} />
+        <img src={vista3} alt='' className='img-style' onClick={() => handleImageClick('/vista3.jpg')} />
       </div>
       <div className='form-desc'>
         <p>

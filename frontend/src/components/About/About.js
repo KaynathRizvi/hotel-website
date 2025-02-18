@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './About.css';
+import pool from '../../assests/pool.jpg';
+import residence from '../../assests/residence.jpg';
+import cafe from '../../assests/cafe.jpg';
+import gym from '../../assests/gym.jpg';
 
 const About = () => {
   const navigate = useNavigate();
   const [currentImage, setCurrentImage] = useState(0);
 
-  const images = [
-    '/pool.jpg',
-    '/residence.jpg',
-    '/cafe.jpg', 
-    '/gym.jpg',
-  ];
+  const images = [pool, residence, cafe, gym];
 
   const imageDescriptions = [
     'Hotel Pool',

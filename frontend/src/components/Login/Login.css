@@ -55,7 +55,7 @@
   transform: translateY(-50%);
   width: 30px; 
   height: 25px; 
-  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\email.svg');
+  background-image: url('C:\Users\Kaynath Zehra\\hotel-booking-website\frontend\src\assests\email.svg');
   background-repeat: no-repeat;
 }
 .login-password-icon{
@@ -65,7 +65,7 @@
   transform: translateY(-50%);
   width: 30px; 
   height: 25px; 
-  background-image: url('C:\Users\Kaynath Zehra\grand-hotel-website\frontend\public\password.svg');
+  background-image: url('C:\Users\Kaynath Zehra\hotel-booking-website\frontend\src\assests\password.svg');
   background-repeat: no-repeat;
 }
 .login-button-frame {
